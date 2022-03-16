@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ira_CRUD_Firebase</string>
+    <string name="txt_login">Login</string>
+    <string name="iv_hijab">Hijab</string>
+    <string name="txt_btn_login">Login</string>
+    <string name="ed_nim">NIM</string>
+    <string name="ed_nama">Nama</string>
+    <string name="ed_jurusan">Jurusan</string>
+    <string name="btn_simpan">Simpan</string>
+    <string name="btn_show_data">Lihat Data</string>
+    <string name="btn_logout">Keluar</string>
+    <string name="ed_nim_x">NIM</string>
+    <string name="ed_nama_x">Nama</string>
+    <string name="ed_jurusan_x">Jurusan</string>
+    <string name="btn_update">Update</string>
+    <string name="tv_nim">NIM</string>
+    <string name="tv_nama">Nama</string>
+    <string name="tv_jurusan">Jurusan</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_8sdp"
+    tools:context=".UpdateData"
+    android:orientation="vertical"
+    android:background="#11DF1D83">
+
+    <EditText
+        android:id="@+id/ed_new_nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="18"
+        android:hint="@string/ed_nim_x"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/ed_new_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="18"
+        android:hint="@string/ed_nama_x"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/ed_new_jurusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="18"
+        android:hint="@string/ed_jurusan_x"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:backgroundTint="#8C48FA"
+        android:text="@string/btn_update"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
